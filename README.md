@@ -1,4 +1,4 @@
-# Fire SALE
+# Solarize
 
 Platform for users to create and host online stores
 
@@ -6,7 +6,6 @@ Platform for users to create and host online stores
 
 ## Demo
 
-* https://immense-oasis-34496.herokuapp.com *
 
 ## Slides
 

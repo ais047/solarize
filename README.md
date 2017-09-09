@@ -1,6 +1,6 @@
-# Fire SALE
+# Solarize
 
-Platform for users to create and host online stores
+Platform for users to create automated leads
 
 *https://github.com/AlexHimchak/solarize*
 
@@ -23,9 +23,12 @@ Heroku - Deployment
 
 ## Authors
 
-* **Alex Himchak** - *front-end* - [AlexHimchak](https://github.com/AlexHimchak)
+* **Alex Himchak** - *MySql* /database  - [AlexHimchak](https://github.com/AlexHimchak)
 * **David Hollingsworth** - *js / database / routing* - [Dshollings](https://github.com/Dshollings)
 * **Sungwoo Hur** - *js / image handling / mvc* - [ais047](https://github.com/ais047)
+* **Thomas Mercer** - *front-end / image handling / mvc* - [ais047](https://github.com/ais047)
+
+
 
 ## Acknowledgments
 

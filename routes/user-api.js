@@ -10,8 +10,7 @@ module.exports = function(app) {
   });
 
 
-  app.post("/api/authors", function(req, res) {
-     // Create an Author with the data available to us in req.body
+  app.post("/api/user", function(req, res) {
     console.log(req.body);
     db.User.create(req.body).then(function(dbUser) {
       res.json(dbUser);
@@ -19,7 +18,6 @@ module.exports = function(app) {
   });
 
   app.delete("/api/user/:id", function(req, res) {
-    // Delete the Author with the id available to us in req.params.id
     db.User.destroy({
       where: {
         id: req.params.id

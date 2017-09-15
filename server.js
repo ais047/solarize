@@ -15,7 +15,11 @@ app.use(express.static("public"));
 
 
 require("./routes/html-routes.js")(app);
-// require("./routes/shop-api-routes.js")(app);
+//require("./routes/api-routes.js")(app);
+
+require("./routes/shop-api-routes.js")(app);
+require("./routes/user-api.js")(app);
+
 // require("./routes/item-api-routes.js")(app);
 
 

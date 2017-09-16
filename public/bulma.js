@@ -6,3 +6,19 @@
         menu.classList.toggle('is-active');
     });
 })();
+
+$("#showModal").click(function() {
+  $(".modal").addClass("is-active");  
+});
+
+$(".delete").click(function() {
+   $(".modal").removeClass("is-active");
+});
+
+$("#cancel").click(function() {
+   $(".modal").removeClass("is-active");
+});
+
+$(".modal-close").click(function() {
+   $(".modal").removeClass("is-active");
+});
